@@ -165,11 +165,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const timestamp = getCurrentTime();
 
     if (type === "Search") {
-      const formattedUserSearch = await handleSearchLink(bookmarkDb, timestamp);
+      const formattedUserSearch = await handleSearchLink(bookmarkDb);
       searchHistory.push({ time: timestamp, search: formattedUserSearch.replace(";", "U+003B") });
       document.cookie = `searchHistory=${JSON.stringify(searchHistory)}; path=/Illegal_Services/Bookmarks%20Toolbar/; samesite=Strict; Secure`;
     } else if (type === "Request") {
-      const [formattedUserRequest, status] = await handleRequestLink(bookmarkDb, timestamp);
+      const [formattedUserRequest, status] = await handleRequestLink(bookmarkDb);
       requestHistory.push({ time: timestamp, status: status, request: formattedUserRequest.replace(";", "U+003B") });
       document.cookie = `requestHistory=${JSON.stringify(requestHistory)}; path=/Illegal_Services/Bookmarks%20Toolbar/; samesite=Strict; Secure`;
     }

@@ -3,6 +3,7 @@
 # These modules are part of the Python standard library and don't require additional installation.
 # --------------------
 import re
+import sys
 import shutil
 import textwrap
 import datetime
@@ -18,7 +19,7 @@ JS_COUNTER_PATH = Path("js/counter.js")
 def error(message: str):
     print(message, end="")
     input()
-    exit(1)
+    sys.exit(1)
 
 
 def encode_unicode_encoding(string: str, type: str):
@@ -397,4 +398,4 @@ with JS_COUNTER_PATH.open("w", encoding="utf-8") as file:
 if not JS_COUNTER_PATH.is_file():
     error(f'ERROR (write_js_conter): "{JS_COUNTER_PATH}"')
 
-exit(0)
+sys.exit(0)

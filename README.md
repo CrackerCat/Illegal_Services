@@ -4,7 +4,7 @@
 
 Illegal Services is a project that provides different methods to conveniently access websites related to piracy (also known as warez) and cybersecurity. It serves as a comprehensive wiki cataloging the maximum of "safe-to-use" websites across all regional languages.
 <br>
-If you have an interest in watching movies, downloading applications, exploring ebooks, or engaging in cybersecurity activities, this is the perfect project for you.
+If you have an interest in watching movies, downloading applications, exploring e-books, or engaging in cybersecurity activities, this is the perfect project for you.
 
 ## **Exploring IS Bookmarks database**
 
@@ -20,7 +20,7 @@ If you have an interest in watching movies, downloading applications, exploring 
   <br>
 
 - **The Web Extension:**
-  It lets you import and navigate the database directly trough your web browser's bookmarks bar.
+  It lets you import and navigate the database directly through your web browser's bookmarks bar.
   <div align="center">
   <img src="https://i.imgur.com/7gpyo1e.png" alt="IS Web Extension" style="width: 30%;">
   <br>
@@ -35,7 +35,7 @@ If you have an interest in watching movies, downloading applications, exploring 
   <br>
 
 - **The Windows App:**
-  A powerful multi-tool that not only offers IS bookmarks database but also handfull functionalities such as the IP Address Lookup, IP Port scanning, IP Pingers, and some more.
+  A powerful multi-tool that not only offers IS bookmarks database but also helpful functionalities such as IP Address Lookup, IP Port scanning, IP Pingers, and more.
   <br>
   It is compatible with Windows 10 and 11 (x86/x64).
   <div align="center">
@@ -52,7 +52,7 @@ If you have an interest in watching movies, downloading applications, exploring 
   <br>
 
 - **Explore Additional Methods:**
-  For even further methods and detailed informations, check out the [tutorial](https://illegal-services.github.io/Illegal_Services/tutorial.html) page.
+  For even further methods and detailed information, check out the [tutorial](https://illegal-services.github.io/Illegal_Services/tutorial.html) page.
 
 <br>
 
